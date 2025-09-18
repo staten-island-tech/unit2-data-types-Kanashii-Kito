@@ -31,10 +31,10 @@
 
 bill= input("How much is the bill? ")
 bill=float(bill)
+
 tip=bill*0.23
 print(str("Your Tip to add to the Total Bill is: ")+str(tip))
 total= tip + bill
-
 print(str("Your Total Bill with Tip is: ")+str(total))
 
 
