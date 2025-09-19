@@ -28,22 +28,28 @@
 
 
 '''Working Tip and total calcuator is below:D'''
+'''Make sure to uncomment it:D'''
 
-bill= input("How much is the bill? ")
-bill=float(bill)
+# bill= input("How much is the bill? ")
+# bill=float(bill)
 
-tip=bill*0.23
-print(str("Your tip that is add to the Total Bill is: ")+str(tip))
-total= tip + bill
-print(str("Your Total Bill with tip is: ")+str(total))
+# tip=bill*0.23
+# print(str("Your tip that is add to the Total Bill is: ")+str(tip))
+# total= tip + bill
+# print(str("Your Total Bill with tip is: ")+str(total))
 
-
-
-# print("Your Total Bill with tip is")
-# print(total)
-
+""" print("Your Total Bill with tip is")
+print(total) """
 
 
+
+
+values = [1,2.23,5,7,2,30,15]
+print(values)
+# for i in values:
+#     print(i)
+print(values[0])
+print(values[6])
 
 
 
