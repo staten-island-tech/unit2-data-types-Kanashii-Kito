@@ -30,37 +30,59 @@
 '''Working Tip and total calcuator is below:D'''
 '''Make sure to uncomment it:D'''
 
-# bill= input("How much is the bill? ")
-# bill=float(bill)
+bill= input("How much is the bill? ")
+bill=float(bill)
 
-# tip=bill*0.23
-# print(str("Your tip that is add to the Total Bill is: ")+str(tip))
-# total= tip + bill
-# print(str("Your Total Bill with tip is: ")+str(total))
+tip=bill*0.23
+print(str("Your tip that is add to the Total Bill is: ")+str(tip))
+total= tip + bill
+print(str("Your Total Bill with tip is: ")+str(total))
+if bill: 
+    input = 0
+elif input is 0:
+    print(str("Thank you, you now owe the corporation your soul."))
+    print(str("Please proceed to the shopping center and select what items you want."))
+
+x = input("Do you wanna buy things? (Yes/No)")
+print("Everything here will be billed to you via your contract you signed. ")
+
+while x == "y":
+    item = input("what do you want to buy? You can select anything you would want.")
+while x is not "n":
+    item = input("what do you want to buy? You can select anything you would want.")
+    item = '''sljkfljeljflsjjdslfjsljf'''
+print("Thank you for selling your soul for the corporation. Enjoy your purchase.")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 """ print("Your Total Bill with tip is")
 print(total) """
-
-
-
-
-values = [1,2.23,5,7,2,30,15]
-print(values)
-# for i in values:
-#     print(i)
-print(values[0])
-print(values[6])
-
-
-
-
-
-
-
-
-
-
-
 
 """ # x = "Nathen"
 # print(x)
@@ -80,3 +102,39 @@ print(values[6])
 
 
 
+# values = [1,2.23,5,7,2,30,15]
+# print(values)
+# # for i in values:
+# #     print(i)
+# print(values[0])
+# print(values[6])
+
+
+
+# x = "this is a thing"
+# y= x.split( )
+# z = y[0]
+# print(y)
+# print(z)n
+
+
+
+
+'''Notes below for idk what'''
+
+# x = input("do you wanna buy a thing? (y/n)")
+
+# while x == "y":
+#     item = input("what do you want to buy")
+# while x is not "n":
+#     item = input("what do you want to buy")
+# print("Thank you for selling your soul for the corporation. Enjoy your purchase.")
+
+import random
+
+y = random.randint(1,100)
+print(y)
+
+def test():
+    x = 50
+    print(x)
