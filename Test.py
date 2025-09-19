@@ -27,15 +27,15 @@
 
 
 
-
+'''Working Tip and total calcuator is below:D'''
 
 bill= input("How much is the bill? ")
 bill=float(bill)
 
 tip=bill*0.23
-print(str("Your Tip to add to the Total Bill is: ")+str(tip))
+print(str("Your tip that is add to the Total Bill is: ")+str(tip))
 total= tip + bill
-print(str("Your Total Bill with Tip is: ")+str(total))
+print(str("Your Total Bill with tip is: ")+str(total))
 
 
 
