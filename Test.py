@@ -30,28 +30,39 @@
 '''Working Tip and total calcuator is below:D'''
 '''Make sure to uncomment it:D'''
 
-bill= input("How much is the bill? ")
-bill=float(bill)
+# bill= input("How much is the bill? ")
+# bill=float(bill)
 
-tip=bill*0.23
-print(str("Your tip that is add to the Total Bill is: ")+str(tip))
-total= tip + bill
-print(str("Your Total Bill with tip is: ")+str(total))
-if bill: 
-    input = 0
-elif input is 0:
-    print(str("Thank you, you now owe the corporation your soul."))
-    print(str("Please proceed to the shopping center and select what items you want."))
+# tip=bill*0.23
+# print(str("Your tip that is add to the Total Bill is: ")+str(tip))
+# total= tip + bill
+# print(str("Your Total Bill with tip is: ")+str(total))
 
-x = input("Do you wanna buy things? (Yes/No)")
-print("Everything here will be billed to you via your contract you signed. ")
 
-while x == "y":
-    item = input("what do you want to buy? You can select anything you would want.")
-while x is not "n":
-    item = input("what do you want to buy? You can select anything you would want.")
-    item = '''sljkfljeljflsjjdslfjsljf'''
-print("Thank you for selling your soul for the corporation. Enjoy your purchase.")
+'''You can make this calcuator into something funny if you uncomment the thing below.'''
+'''Thing below is a WIP/WORK IN PROGRESS'''
+
+# if bill: 
+#     input = 0
+# elif input is 0:
+#     print(str("Thank you, you now owe the corporation your soul."))
+
+
+#     # print(str("Please proceed to the shopping center and select what items you want."))
+
+# if bill: 
+#     input = float(input)
+# elif input == -1:
+
+#     x = input("Do you wanna buy things? (Yes/Done) [Once you have everything you want, please type: Done]")
+# print("Everything here will be billed to you via your contract you signed. ")
+
+# if x == "Yes":
+#     item = input("what do you want to buy? You can select anything you would want.")
+# if x == "Done":
+#     print("Thank you for selling your soul for the corporation. Enjoy your purchase.")
+
+
 
 
 
@@ -130,11 +141,40 @@ print(total) """
 #     item = input("what do you want to buy")
 # print("Thank you for selling your soul for the corporation. Enjoy your purchase.")
 
-import random
+# import random
 
-y = random.randint(1,100)
-print(y)
+# y = random.randint(1,100)
+# print(y)
 
-def test():
-    x = 50
-    print(x)
+# def test():
+#     x = 50
+#     print(x)
+
+
+
+
+
+
+
+
+
+
+# x = "this is a thing"
+# y= x.split( )
+# z = y[0]
+# print(y)
+# print(z)
+
+
+'''ASSESSMENT'''
+
+sent = input("Input a Sentence:")
+sentence = sent.split()
+z = sentence[0] 
+print (sentence)
+# print(z)
+word_count = len(sentence)
+print(word_count)
+
+
+
