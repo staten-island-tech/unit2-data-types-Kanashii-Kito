@@ -43,7 +43,7 @@
 '''Thing below is a WIP/WORK IN PROGRESS'''
 
 # if bill: 
-#     input = 0
+#     input == 0
 # elif input is 0:
 #     print(str("Thank you, you now owe the corporation your soul."))
 
@@ -168,13 +168,42 @@ print(total) """
 
 '''ASSESSMENT'''
 
-sent = input("Input a Sentence:")
-sentence = sent.split()
-z = sentence[0] 
-print (sentence)
-# print(z)
-word_count = len(sentence)
-print(word_count)
+# sent = input("Input a Sentence:")
+# sentence = sent.split()
+# z = sentence[0] 
+# print (sentence)
+# # print(z)
+# word_count = len(sentence)
+# print(word_count)
+
+
+'''-----------------------------------------------------------------------------------------'''
+
+# day_of_week = input("What day is it?")
+# if day_of_week == "Thursday":
+#     print("Correct")
+# else:
+#     print("Incorrect")
 
 
 
+
+
+# x = "test"
+# print(f"hello {x}")
+
+# temp = 75
+# if temp > 68:
+#     print('warm')
+# elif temp == 68:
+#     print('perfect')
+# else:
+#     print('cold')
+
+
+
+Num=int(input("Hand me a number:"))
+if Num%2==int:
+    print("Even Number")
+if (".") in Num%2:
+    print("Odd Number")
