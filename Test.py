@@ -234,18 +234,19 @@ Servicetype = input("How was our service?" \
 "What you enter would determine how much you would be tipping your server.  " \
 "Bad = 0.00 | Okay = 0.15 | Good = 0.2 | Great = 0.25" \
 "Please Input Exactly: Bad | Okay | Good | Great :  ")
-Bad = 0
+Bad = float(0)
 Okay = float(0.15)
-Good = float(0.2)
+Good = float(0.20)
 Great = float(0.25)
 
 if Bad:
-    tip=0
-if Okay:
+    print(str("Your tip that is add to the Total Bill is: 0"))
+    print(str("Your Total Bill with tip is: ")+str(total = bill))
+elif Okay:
     tip=bill*Okay
-if Good:
+elif Good:
     tip=bill*Good
-if Great:
+elif Great:
     tip=bill*Great
 
 print(str("Your tip that is add to the Total Bill is: ")+str(tip))
