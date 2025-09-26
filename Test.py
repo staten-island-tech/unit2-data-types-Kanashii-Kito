@@ -200,10 +200,64 @@ print(total) """
 # else:
 #     print('cold')
 
+'''Odd even number stuff'''
+
+# Num=int(input("Hand me a number:"))
+# if Num%2== 0 :
+#     print("That is a Even Number")
+# else:
+#     print("That is a Odd Number")
 
 
-Num=int(input("Hand me a number:"))
-if Num%2==int:
-    print("Even Number")
-if (".") in Num%2:
-    print("Odd Number")
+'''Fix the things below later'''
+# bill= input("How much is the bill? ")
+# bill=float(bill)
+# Servicetype = input("How was our service? " \
+# "What you enter would determine how much you would be tipping your server.  " \
+# "Bad = 0.00 | Okay = 0.15 | Good = 0.2 | Great = 0.25" \
+# "Please Input Exactly: Bad | Okay | Good | Great :")
+# Bad = 0.00
+# Okay = 0.15
+# Good = 0.2
+# Great = 0.25
+
+# tip=bill*int(Servicetype)
+# print(str("Your tip that is add to the Total Bill is: ")+str(tip))
+# total= tip + bill
+# print(str("Your Total Bill with tip is: ")+str(total))
+
+'''Proper one that use if and elif'''
+
+bill= input("How much is the bill? :  ")
+bill=float(bill)
+Servicetype = input("How was our service?" \
+"What you enter would determine how much you would be tipping your server.  " \
+"Bad = 0.00 | Okay = 0.15 | Good = 0.2 | Great = 0.25" \
+"Please Input Exactly: Bad | Okay | Good | Great :  ")
+Bad = 0
+Okay = float(0.15)
+Good = float(0.2)
+Great = float(0.25)
+
+if Bad:
+    tip=0
+if Okay:
+    tip=bill*Okay
+if Good:
+    tip=bill*Good
+if Great:
+    tip=bill*Great
+
+print(str("Your tip that is add to the Total Bill is: ")+str(tip))
+total= tip + bill
+print(str("Your Total Bill with tip is: ")+str(total))
+
+
+
+
+
+
+
+
+# Servicetype = input("How was our service? " \
+# "What you enter would determine how much you would be tipping your server.  Bad = 0.00 | Okay = 0.15 | Good = 0.2 | Great = 0.25 Please Input Exactly: Bad | Okay | Good | Great :     ")
