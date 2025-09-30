@@ -210,55 +210,57 @@ print(total) """
 
 
 '''Fix the things below later'''
-bill= input("How much is the bill? ")
-bill=float(bill)
-Servicetype = input("How was our service? " \
-"What you enter would determine how much you would be tipping your server.  " \
-"Bad = 0.00 | Okay = 0.15 | Good = 0.2 | Great = 0.25" \
-"Please Input Exactly: Bad | Okay | Good | Great :")
-Bad = 0.00
-Okay = 0.15
-Good = 0.2
-Great = 0.25
+# bill= input("How much is the bill? ")
+# bill=float(bill)
+# Servicetype = input("How was our service? " \
+# "What you enter would determine how much you would be tipping your server.  " \
+# "Bad = 0.00 | Okay = 0.15 | Good = 0.2 | Great = 0.25" \
+# "Please Input Exactly: Bad | Okay | Good | Great :")
+# Bad = 0.00
+# Okay = 0.15
+# Good = 0.2
+# Great = 0.25
 
-tip=bill*str(Servicetype)
-print(str("Your tip that is add to the Total Bill is: ")+str(tip))
-total= tip + bill
-print(str("Your Total Bill with tip is: ")+str(total))
+# tip=bill*str(Servicetype)
+# print(str("Your tip that is add to the Total Bill is: ")+str(tip))
+# total= tip + bill
+# print(str("Your Total Bill with tip is: ")+str(total))
 
 '''Proper one that use if and elif'''
 
 
 
-# bill= input("How much is the bill? :  ")
-# bill=float(bill)
-# Servicetype = input("How was our service?" \
-# "What you enter would determine how much you would be tipping your server.  " \
-# "Bad = 0.00 | Okay = 0.15 | Good = 0.2 | Great = 0.25" \
-# "Please Input Exactly: Bad | Okay | Good | Great :  ")
+bill= input("How much is the bill? :  ")
+bill=float(bill)
+Servicetype = input("How was our service?" \
+"What you enter would determine how much you would be tipping your server.  " \
+"Bad = 0.00 | Okay = 0.15 | Good = 0.2 | Great = 0.25" \
+"Please Input Exactly: Bad | Okay | Good | Great :  ")
 
 
-# Bad = float(0)
-# Okay = float(0.15)
-# Good = float(0.20)
-# Great = float(0.25)
+Bad = float(0)
+Okay = float(0.15)
+Good = float(0.20)
+Great = float(0.25)
 
-# if Servicetype == Bad:
-#     print(str("Your tip that is add to the Total Bill is: 0"))
-#     print(str("Your Total Bill with tip is: ")+str(total = bill))
-# elif Servicetype == Okay:
-#     tip=bill*Okay
+if Servicetype == Bad:
+    total = bill
+    print(str("Your tip that is add to the Total Bill is: 0"))
+    print ("Your Total Bill with tip is: {total}")
 
-# elif Servicetype == Good:
-#     tip=bill*Good
+elif Servicetype == Okay:
+    tip=bill*Okay
 
-# elif Servicetype == Great:
-#     tip=bill*Great
+elif Servicetype == Good:
+    tip=bill*Good
+
+elif Servicetype == Great:
+    tip=bill*Great
 
 
-# print(str("Your tip that is add to the Total Bill is: ")+str(tip))
-# total= tip + bill
-# print(str("Your Total Bill with tip is: ")+str(total))
+print("Your tip that is add to the Total Bill is: {tip}")
+total= tip + bill
+print(str("Your Total Bill with tip is: ")+str(total))
 
 
 
