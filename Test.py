@@ -166,6 +166,17 @@ print(total) """
 # print(z)
 
 
+
+
+
+
+
+
+
+
+
+
+
 '''ASSESSMENT'''
 
 # sent = input("Input a Sentence:")
@@ -209,64 +220,66 @@ print(total) """
 #     print("That is a Odd Number")
 
 
-'''Fix the things below later'''
-# bill= input("How much is the bill? ")
+
+
+'''Proper one that use if and elif''' '''remember to uncomment'''
+
+# bill= input("How much is the bill? :  ")
 # bill=float(bill)
-# Servicetype = input("How was our service? " \
+# Servicetype = input("How was our service?" \
 # "What you enter would determine how much you would be tipping your server.  " \
 # "Bad = 0.00 | Okay = 0.15 | Good = 0.2 | Great = 0.25" \
-# "Please Input Exactly: Bad | Okay | Good | Great :")
-# Bad = 0.00
-# Okay = 0.15
-# Good = 0.2
-# Great = 0.25
+# "Please Input Exactly: Bad | Okay | Good | Great :  ")
 
-# tip=bill*str(Servicetype)
-# print(str("Your tip that is add to the Total Bill is: ")+str(tip))
+# Bad = float(0)
+# Okay = float(0.15)
+# Good = float(0.20)
+# Great = float(0.25)
+
+# tip = 0
+
+# if Servicetype == 'Bad':
+#     tip= bill * 0
+
+# elif Servicetype == 'Okay':
+#     tip=bill*Okay
+#     total=tip+bill
+
+# elif Servicetype == 'Good':
+#     tip=bill*Good
+
+# elif Servicetype == 'Great':
+#     tip=bill*Great
+
 # total= tip + bill
-# print(str("Your Total Bill with tip is: ")+str(total))
-
-'''Proper one that use if and elif'''
 
 
+# print(f"Your tip that is add to the Total Bill is: {tip}")
+# print(f"Your Total Bill with tip is: {total}")
 
-bill= input("How much is the bill? :  ")
-bill=float(bill)
-Servicetype = input("How was our service?" \
-"What you enter would determine how much you would be tipping your server.  " \
-"Bad = 0.00 | Okay = 0.15 | Good = 0.2 | Great = 0.25" \
-"Please Input Exactly: Bad | Okay | Good | Great :  ")
-
-
-Bad = float(0)
-Okay = float(0.15)
-Good = float(0.20)
-Great = float(0.25)
-
-if Servicetype == Bad:
-    total = bill
-    print(str("Your tip that is add to the Total Bill is: 0"))
-    print ("Your Total Bill with tip is: {total}")
-
-elif Servicetype == Okay:
-    tip=bill*Okay
-
-elif Servicetype == Good:
-    tip=bill*Good
-
-elif Servicetype == Great:
-    tip=bill*Great
-
-
-print("Your tip that is add to the Total Bill is: {tip}")
-total= tip + bill
-print(str("Your Total Bill with tip is: ")+str(total))
+'''-----------------------------------------------------------------------------------------------'''
 
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+factor_number = input("What number would you like to be factored?:  ")
 
 
 
