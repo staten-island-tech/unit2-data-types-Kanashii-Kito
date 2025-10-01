@@ -289,23 +289,33 @@ print(total) """
 # print(f"Factors of {factor_this_number} you gave me are:  {factors}")
 
 
+'''Challange number 3 '''
 
-factors = []
-x=int(input("Hand me a number to factor:"))
-for i in range(1,x+1):
-    if x%1==0:
-        factors.append(i)
-print(f"Factors of {x} you gave me are:  {factors}")
 
 
 
+# factors= []
+# x=int(input("Number pls:  "))
+# for i in range(1,x+1):
+#     if x%i==0:
+#         factors.append(i)
+# print(f"Factors of {x} is {factors}")
 
 
 
 
+'''--------------------------------------------------------------------------------------------------'''
 
+'''FIX  THINGS BELOW WHEN YOU GET HOME OR WHEN YOU HAVE TIME:D'''
 
 
+'''Challange number 4'''
+Greatest_Common_Factor=input ("Give me two numbers pls:  ")
+fac1 = []
+def Greatest_Common_Factor(X, Y):
+    for i in range (1, Greatest_Common_Factor+1):
+        if X%Greatest_Common_Factor==0 and Y%Greatest_Common_Factor==0:
+            print(Greatest_Common_Factor)
 
 
 
@@ -330,80 +340,3 @@ print(f"Factors of {x} you gave me are:  {factors}")
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# if Servicetype == Bad:
-#     print(str("Your tip that is add to the Total Bill is: 0"))
-#     print(str("Your Total Bill with tip is: ")+str(total = bill))
-# elif Servicetype == Okay:
-#     tip=bill*Okay
-#     print(str("Your tip that is add to the Total Bill is: ")+str(tip))
-#     total= tip + bill
-#     print(str("Your Total Bill with tip is: ")+str(total))
-# elif Servicetype == Good:
-#     tip=bill*Good
-#     print(str("Your tip that is add to the Total Bill is: ")+str(tip))
-#     total= tip + bill
-#     print(str("Your Total Bill with tip is: ")+str(total))
-# elif Servicetype == Great:
-#     tip=bill*Great
-#     print(str("Your tip that is add to the Total Bill is: ")+str(tip))
-#     total= tip + bill
-#     print(str("Your Total Bill with tip is: ")+str(total))
-
-
-# total= tip + bill
-# print(str("Your Total Bill with tip is: ")+str(total))
-
-
-
-
-
-
-
-# print(str("Your tip that is add to the Total Bill is: ")+str(tip))
-# total= tip + bill
-# print(str("Your Total Bill with tip is: ")+str(total))
-
-
-
-
-
-
-
-
-# Servicetype = input("How was our service? " \
-# "What you enter would determine how much you would be tipping your server.  Bad = 0.00 | Okay = 0.15 | Good = 0.2 | Great = 0.25 Please Input Exactly: Bad | Okay | Good | Great :     ")
