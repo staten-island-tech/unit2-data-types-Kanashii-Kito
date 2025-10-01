@@ -279,10 +279,23 @@ print(total) """
 
 
 
-factor_number = input("What number would you like to be factored?:  ")
+# factor_this_number = input("What number would you like to be factored?:  ")
+
+# factors = []
+# factor_this_number=int(input("Hand me a number to factor:  "))
+# for i in range(1, factor_this_number+1):
+#     if factor_this_number%1==0:
+#         factors.append(i)
+# print(f"Factors of {factor_this_number} you gave me are:  {factors}")
 
 
 
+factors = []
+x=int(input("Hand me a number to factor:"))
+for i in range(1,x+1):
+    if x%1==0:
+        factors.append(i)
+print(f"Factors of {x} you gave me are:  {factors}")
 
 
 
