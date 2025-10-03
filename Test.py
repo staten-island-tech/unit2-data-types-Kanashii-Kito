@@ -317,7 +317,7 @@ def Greatest_Common_Factor(X, Y):
         if X%Greatest_Common_Factor==0 and Y%Greatest_Common_Factor==0:
 
 
-            print(Greatest_Common_Factor)
+            print(Greatest_Common_Factor)  
 
 
 
