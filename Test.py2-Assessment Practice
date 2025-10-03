@@ -1,1 +1,5 @@
-x=input
+'''Assessment Practice'''
+'''Engish or French? FRENCH:D'''
+def language(x):
+    print("do somethign pls")
+    language("Silver, why are you so sad?")
