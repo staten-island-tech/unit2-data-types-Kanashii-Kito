@@ -315,8 +315,9 @@ fac1 = []
 def Greatest_Common_Factor(X, Y):
     for i in range (1, Greatest_Common_Factor+1):
         if X%Greatest_Common_Factor==0 and Y%Greatest_Common_Factor==0:
-            print(Greatest_Common_Factor)
 
+
+            print(Greatest_Common_Factor)
 
 
 
