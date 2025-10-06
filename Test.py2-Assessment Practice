@@ -1,10 +1,9 @@
 '''Assessment Practice'''
 '''Engish or French? FRENCH:D'''
 
-char1=(str("t" and "T"))
-char2=(str("s" and "S"))
+char1="t"
+char2="s"
 def lang(x):
-    for char in x:
         if char1 > char2:
             print("English")
         elif char2 > char1:
