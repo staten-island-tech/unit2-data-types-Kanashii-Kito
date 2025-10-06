@@ -1,5 +1,27 @@
 '''Assessment Practice'''
 '''Engish or French? FRENCH:D'''
-def language(x):
+
+char1=(str("t" and "T"))
+char2=(str("s" and "S"))
+def lang(x):
+    for char in x:
+        if char1 > char2:
+            print("English")
+        elif char2 > char1:
+            print("FRENCH")
+# lang("Silver, why are you so sad?")
+lang=("Lorsque j'avais six ans j'ai vu, une fois,")
+
+
+
+
+
+
+""" def language(x):
     print("do somethign pls")
-    language("Silver, why are you so sad?")
+    language("Silver, why are you so sad?") """
+
+
+
+
+
