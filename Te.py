@@ -1,15 +1,28 @@
-char1="t"
-char2="s"
-def lang(x):
-        for char in x:
-                char1 += 1
-                char2 += 1
-        if char1 > char2:
-            print("English")
-        elif char2 > char1:
-            print("FRENCH")
-# lang("Silver, why are you so sad?")
-lang=("Lorsque j'avais six ans j'ai vu, une fois,")
+def parking_spacesAnyDay(x, y):
+    y_Car_OccupiedSpace = 0
+    y_Empty_notOccupied_Space = 0
+    for car in x:
+        if car == "C":
+            y_Car_OccupiedSpace += 1
+        elif car == ".":
+            y_Empty_notOccupied_Space += 1
+    
 
-'''Fix this / use this file for testing so you can properly fix the acutal practice assessment one.'''
+
+
+
+    t_Car_OccupiedSpace = 0
+    t_Empty_notOccupied_Space = 0
+    for car in y:
+        if car == "C":
+            t_Car_OccupiedSpace += 1
+        elif car == ".":
+            t_Empty_notOccupied_Space += 1
+    
+    print(y_Car_OccupiedSpace, y_Empty_notOccupied_Space)
+    print(t_Car_OccupiedSpace, t_Empty_notOccupied_Space)
+
+    parking_spacesAnyDay("CCC..", "C.C.C.")
+
+    print(str(y_Car_OccupiedSpace-t_Car_OccupiedSpace))
 
