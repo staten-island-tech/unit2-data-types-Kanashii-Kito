@@ -48,7 +48,7 @@
 
 
 
-def parking_spacesAnyDay(x,y):
+def parking_spacesAnyDay(x, y):
     y_Car_OccupiedSpace = 0
     y_Empty_notOccupied_Space = 0
     for car in x:
