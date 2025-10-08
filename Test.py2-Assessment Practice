@@ -48,7 +48,7 @@
 
 
 
-def parking_spacesAnyDay(x, y):
+def parking_spacesAnyDay(n, x, y):
     y_Car_OccupiedSpace = 0
     y_Empty_notOccupied_Space = 0
     for car in x:
@@ -68,14 +68,59 @@ def parking_spacesAnyDay(x, y):
             t_Car_OccupiedSpace += 1
         elif car == ".":
             t_Empty_notOccupied_Space += 1
-    
+
+
+
     print(y_Car_OccupiedSpace, y_Empty_notOccupied_Space)
     print(t_Car_OccupiedSpace, t_Empty_notOccupied_Space)
 
-    parking_spacesAnyDay("CCC..", "C.C.C.")
+    for i in range(n):
+        if y[i] == "C" and x[i] == "C":
+            occupied += 1
+    return(occupied)
 
-    print(str(y_Car_OccupiedSpace-t_Car_OccupiedSpace))
-        
+
+
+print(parking_spacesAnyDay(5, "CCC..", "C.C.C)."))
+
+
+
+
+
+
+'''-----------------------------------------------------------------------------------------------------------------------------------------------------------------'''
+
+""" Random stuff below """
+
+
+
+
+
+
+def spaces(n,y,t):
+    occupied=0
+
+    for i in range(n):
+        if y[i] == "C" and t[i] == "C":
+            occupied += 1
+    return(occupied)
+
+
+
+print(spaces(5, "CCC..", ".C.C."))
+
+
+
+
+
+
+    # for i in range(n):
+    #     print(y[i], t[i])
+    # for i in range(len(y)):
+
+
+
+
 
 
 
