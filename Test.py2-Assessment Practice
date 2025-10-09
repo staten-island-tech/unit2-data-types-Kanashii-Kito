@@ -96,15 +96,41 @@
 '''-----------------------------------------------------------------------------------------------------------------------------------------------------'''
 
 
-def honi(x):
-    honi = 0
-    for i in range(honi):
-        if x[i]=="H" == True:
-            if x[i]=="O" == True:
-                if x[i]=="N" == True:
-                    if x[i]== "I" == True:
-                        honi+=1
+# def honi(x):
+#     honi = 0
+#     for i in range(honi):
+#         if x[i]=="H" == True:
+#             if x[i]=="O" == True:
+#                 if x[i]=="N" == True:
+#                     if x[i]== "I" == True:
+#                         honi+=1
                         
 
 
+# print(honi("HHHHOOOONNNNIIII"))
+
+
+
+'''------------------------------------------------------------------------------------------------------------------------------------------------------------'''
+
+# name="A n d y"
+# print(len(name))
+# for letter in name:
+#     print(letter)
+
+def honi(x):
+    honi_blockCounter=0
+    honi = 0
+
+    for i in range(honi):
+        len(honi)
+        if x[i]=="H":
+            honi+=1
+        if x[i]=="O":
+            honi+=1
+        if x[i]=="N":
+            honi+=1
+        if x[i]=="I":
+            honi=0
+        if honi == 0: honi_blockCounter+=1
 print(honi("HHHHOOOONNNNIIII"))
