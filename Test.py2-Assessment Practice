@@ -1,31 +1,8 @@
 '''Assessment Practice'''
+'''--------------------------------------------------------------------------------------------------------------------------------------'''
+
 '''Engish or French? FRENCH:D'''
 
-# char1="t"
-# char2="s"
-# def lang(x):
-#         if char1 > char2:
-#             print("English")
-#         elif char2 > char1:
-#             print("FRENCH")
-# # lang("Silver, why are you so sad?")
-# lang("Lorsque j'avais six ans j'ai vu, une fois,")
-
-
-
-
-
-
-""" def language(x):
-    print("do somethign pls")
-    language("Silver, why are you so sad?") """
-
-
-
-
-
-
-'''---------------------------------------------------------------------------------------------------------------------------------'''
 # def lang(x):  
 #     s = 0
 #     t = 0
@@ -45,43 +22,43 @@
 
 '''-------------------------------------------------------------------------------------------------------------------------------'''
 
+""" Parking thingy that I hate making. D: """
+'''And this one isn't finished.'''
 
-
-
-def parking_spacesAnyDay(n, x, y):
-    y_Car_OccupiedSpace = 0
-    y_Empty_notOccupied_Space = 0
-    for car in x:
-        if car == "C":
-            y_Car_OccupiedSpace += 1
-        elif car == ".":
-            y_Empty_notOccupied_Space += 1
+# def parking_spacesAnyDay(n, x, y):
+#     y_Car_OccupiedSpace = 0
+#     y_Empty_notOccupied_Space = 0
+#     for car in x:
+#         if car == "C":
+#             y_Car_OccupiedSpace += 1
+#         elif car == ".":
+#             y_Empty_notOccupied_Space += 1
     
 
 
 
 
-    t_Car_OccupiedSpace = 0
-    t_Empty_notOccupied_Space = 0
-    for car in y:
-        if car == "C":
-            t_Car_OccupiedSpace += 1
-        elif car == ".":
-            t_Empty_notOccupied_Space += 1
+#     t_Car_OccupiedSpace = 0
+#     t_Empty_notOccupied_Space = 0
+#     for car in y:
+#         if car == "C":
+#             t_Car_OccupiedSpace += 1
+#         elif car == ".":
+#             t_Empty_notOccupied_Space += 1
 
 
 
-    print(y_Car_OccupiedSpace, y_Empty_notOccupied_Space)
-    print(t_Car_OccupiedSpace, t_Empty_notOccupied_Space)
+#     print(y_Car_OccupiedSpace, y_Empty_notOccupied_Space)
+#     print(t_Car_OccupiedSpace, t_Empty_notOccupied_Space)
 
-    for i in range(n):
-        if y[i] == "C" and x[i] == "C":
-            occupied += 1
-    return(occupied)
+#     for i in range(n):
+#         if y[i] == "C" and x[i] == "C":
+#             occupied += 1
+#     return(occupied)
 
 
 
-print(parking_spacesAnyDay(5, "CCC..", "C.C.C)."))
+# print(parking_spacesAnyDay(5, "CCC..", "C.C.C)."))
 
 
 
@@ -90,35 +67,21 @@ print(parking_spacesAnyDay(5, "CCC..", "C.C.C)."))
 
 '''-----------------------------------------------------------------------------------------------------------------------------------------------------------------'''
 
-""" Random stuff below """
+""" BETTER PARKING THINGY """
 
 
 
 
 
 
-def spaces(n,y,t):
-    occupied=0
+# def spaces(n,y,t):
+#     occupied=0
+#     for i in range(n):
+#         if y[i] == "C" and t[i] == "C":
+#             occupied += 1
+#     return(occupied)
 
-    for i in range(n):
-        if y[i] == "C" and t[i] == "C":
-            occupied += 1
-    return(occupied)
-
-
-
-print(spaces(5, "CCC..", ".C.C."))
-
-
-
-
-
-
-    # for i in range(n):
-    #     print(y[i], t[i])
-    # for i in range(len(y)):
-
-
+# print(spaces(5, "CCC..", ".C.C."))
 
 
 
@@ -133,32 +96,15 @@ print(spaces(5, "CCC..", ".C.C."))
 '''-----------------------------------------------------------------------------------------------------------------------------------------------------'''
 
 
-""" def Y_Parking_Spaces(x):
-    y_Car_OccupiedSpace = 0
-    y_Empty_notOccupied_Space = 0
-    for car in x:
-        if car == "C":
-            y_Car_OccupiedSpace += 1
-        elif car == ".":
-            y_Empty_notOccupied_Space += 1
-    
-    print(y_Car_OccupiedSpace, y_Empty_notOccupied_Space)
+def honi(x):
+    honi = 0
+    for i in range(honi):
+        if x[i]=="H" == True:
+            if x[i]=="O" == True:
+                if x[i]=="N" == True:
+                    if x[i]== "I" == True:
+                        honi+=1
+                        
 
 
-
-
-def Today_Parking_Spaces(y):
-    t_Car_OccupiedSpace = 0
-    t_Empty_notOccupied_Space = 0
-    for car in y:
-        if car == "C":
-            t_Car_OccupiedSpace += 1
-        elif car == ".":
-            t_Empty_notOccupied_Space += 1
-    
-    print(t_Car_OccupiedSpace, t_Empty_notOccupied_Space)
-
-# print(str(y_Car_OccupiedSpace-t_Car_OccupiedSpace)) """
-
-
-
+print(honi("HHHHOOOONNNNIIII"))
