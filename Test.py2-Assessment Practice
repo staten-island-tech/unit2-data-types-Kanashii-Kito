@@ -122,7 +122,7 @@ def honi(x):
     honi_blockCounter=0
     honi = 0
 
-    for i in range(honi):
+    for i in range(x):
         len(honi)
         if x[i]=="H":
             honi+=1
@@ -133,4 +133,29 @@ def honi(x):
         if x[i]=="I":
             honi=0
         if honi == 0: honi_blockCounter+=1
-print(honi("HHHHOOOONNNNIIII"))
+    if honi_blockCounter >= 1:
+        print(honi("HHHHOOOONNNNIIII"))
+
+
+
+
+def honi_counter(maybe_honiSequence):
+    honi = 0
+    honi_blockCounter = 0
+
+    for char in maybe_honiSequence:
+        if char == "H":
+            honi += 1
+        elif char == "O":
+            honi += 1
+        elif char == "N":
+            honi += 1
+        elif char == "I":
+            honi = 0
+        
+        if honi == 0:
+            honi_blockCounter += 1
+
+    print("Number of honi blocks:", honi_blockCounter)
+
+honi_counter("HHHHOOOONNNNIIII")
