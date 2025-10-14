@@ -341,3 +341,64 @@ def Greatest_Common_Factor(X, Y):
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+'''------------------------------------------------------------------------------------------------------------------------------------------------------------------------'''
+
+
+""" def MC (n, s, a):
+    for i in range(n):
+        if s[i] == a[i]:
+            correct+=1 """
+
+
+""" def pass (x):
+    lower = 0
+    upper = 0
+    digits = 0
+    if len(x)>8 and len(x)<12
+        for char in x:
+            if char.islower(): 
+                 """
+
+
+def elder(o, n, duels):
+    owner = o
+    owners = 1
+    for i in duels:
+        if i[2] == owner:
+            owner = i[0]
+            owners = owners + 1
+
+    
+    
+    
+    
+        #         range(n):
+        # if duels [i][1]:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
