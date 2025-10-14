@@ -310,13 +310,16 @@ print(total) """
 
 
 '''Challange number 4'''
-Greatest_Common_Factor=input ("Give me two numbers pls:  ")
+Greatest_Common_Factor_1=input ("Give me a numbers pls:  ")
+Greatest_Common_Factor_2=input ("Give me another numbers pls:  ")
+cf = []
 fac1 = []
+fac2 = []
 def Greatest_Common_Factor(X, Y):
-    for i in range (1, Greatest_Common_Factor+1):
-        if X%Greatest_Common_Factor==0 and Y%Greatest_Common_Factor==0:
+    for i in range (1, Greatest_Common_Factor_1+1) and (1, Greatest_Common_Factor_2+1):
+        if X%Greatest_Common_Factor_1==0 and Y%Greatest_Common_Factor_2==0:
 
-
+            Greatest_Common_Factor.append(i)
             print(Greatest_Common_Factor)  
 
 
@@ -325,7 +328,7 @@ def Greatest_Common_Factor(X, Y):
 
 
 
-
+  
 
 
 
