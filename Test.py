@@ -310,29 +310,52 @@ print(total) """
 
 
 '''Challange number 4'''
-Greatest_Common_Factor_1=input ("Give me a numbers pls:  ")
-Greatest_Common_Factor_2=input ("Give me another numbers pls:  ")
-cf = []
-fac1 = []
-fac2 = []
-def Greatest_Common_Factor(X, Y):
-    for i in range (1, Greatest_Common_Factor_1+1) and (1, Greatest_Common_Factor_2+1):
-        if X%Greatest_Common_Factor_1==0 and Y%Greatest_Common_Factor_2==0:
+# Greatest_Common_Factor_1=input ("Give me a numbers pls:  ")
+# Greatest_Common_Factor_2=input ("Give me another numbers pls:  ")
+# cf = []
+# fac1 = []
+# fac2 = []
+# def Greatest_Common_Factor(X, Y):
+#     for i in range (1, Greatest_Common_Factor_1+1):
+#         if X%Greatest_Common_Factor_1==0:
+#             fac1.append = [i]
+#     for i in range (1, Greatest_Common_Factor_2+1):
+#         if Y%Greatest_Common_Factor_2==0:
+#             fac2.append = [i]
+# # for i in range(n):
+# #     if s[i] == a[i]: 
+# #         correct+=1 
 
-            Greatest_Common_Factor.append(i)
-            print(Greatest_Common_Factor)  
+# print(Greatest_Common_Factor)  
 
 
 
 
 
-
+'''------------------------------------------------------------------------------------------------------------------------------------------------------------------------'''
 
   
 
 
+num1 = input ("Give me a number pls:  ")
+num2 = input ("Give me another number pls:  ")
+cf = []
+fac1 = []
+fac2 = []
+def gcf (x,y):
+    for i in range (1, num1+1):
+        if num1%i == 0:
+            fac1.append(i)
+    for i in range (1, num2+1):
+        if num2%i == 0:
+            fac2.append(i)
+    for i in range (fac1 and fac2):
+            cf.append(i)
+        gcf=max(cf)
+        # gcf()
+# print (str("Greatest Common Factor of  and {num2} is {gcf}."))
 
-
+print (str("Greatest Common Factor of ")+str(num2)+str(" and ")+str(num1)+str(" is ")+str(gcf))
 
 
 
