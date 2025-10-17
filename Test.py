@@ -337,28 +337,31 @@ print(total) """
   
 
 
-num1 = input ("Give me a number pls:  ")
-num2 = input ("Give me another number pls:  ")
+num1 = int(input ("Give me a number pls:  "))
+num2 = int(input ("Give me another number pls:  "))
 cf = []
 fac1 = []
 fac2 = []
-def gcf (x,y):
+def gcf ():
     for i in range (1, num1+1):
         if num1%i == 0:
             fac1.append(i)
     for i in range (1, num2+1):
         if num2%i == 0:
             fac2.append(i)
-    for i in range (fac1 and fac2):
-            cf.append(i)
-        gcf=max(cf)
-        # gcf()
-# print (str("Greatest Common Factor of  and {num2} is {gcf}."))
-
-print (str("Greatest Common Factor of ")+str(num2)+str(" and ")+str(num1)+str(" is ")+str(gcf))
+    for i in fac1:
+        if i in fac2:
+            gcf = (cf)
+        cf.append(i)
+    gcf=max(cf)
 
 
 
+
+    print ((f"Greatest Common Factor of {num2} and {num1} is {gcf}"))
+
+
+gcf()
 
 
 
